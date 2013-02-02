@@ -35,7 +35,7 @@ var editor = CodeMirror.fromTextArea(myTextArea, {theme:'MYTHEME'}); //TODO: adj
 ### Editing the theme
 
 You should edit the source files at `src/`; they  
-are written with the fantastic [Stylus](http://learnboost.github.com/stylus) and (NIB)(http://visionmedia.github.com/nib/).
+are written with the fantastic [Stylus](http://learnboost.github.com/stylus) and [NIB](http://visionmedia.github.com/nib/).
 
 Whenever you rename, add or remove files you may  
 need to modify `theme.json` (the theme definition).  
@@ -56,5 +56,5 @@ You can also launch a webserver to try the theme:
 ./demo
 ```
 
-It'll print the URL you have to browse.
+It'll print the URL you have to browse.  
 Quirk the demo page at `manager/index.blade` and `manager/public/`.
